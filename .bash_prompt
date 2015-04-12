@@ -61,6 +61,15 @@ prompt_git() {
 	fi;
 }
 
+function prompt_venv() {
+    if test -z "$VIRTUAL_ENV" ; then
+        virtualenv=""
+    else
+        virtualenv="${yellow}(`basename \"$VIRTUAL_ENV\"`) ${reset}"
+    fi
+    echo -e "${virtualenv}";
+}
+
 bold='';
 reset="\e[0m";
 black="\e[0;30m";
@@ -74,25 +83,15 @@ violet="\e[1;35m";
 cyan="\e[1;36m";
 white="\e[1;37m";
 
-function set_bash_prompt () {
-    if test -z "$VIRTUAL_ENV" ; then
-        virtualenv=""
-    else
-        virtualenv="${yellow}(`basename \"$VIRTUAL_ENV\"`) ${reset}"
-    fi
-
-    PS1="\[\033]0;\w\007\]";
-	PS1+="\[${bold}\]\n"; # newline
-	PS1+="${virtualenv}" # virtualenv
-	PS1+="\[${orange}\][\u] "; # username
-	PS1+="\[${green}\][\w] "; # working directory
-	PS1+="\$(prompt_git \"${violet}\")"; # Git repository details
-	PS1+="\n";
-	PS1+="\[${white}\]\$ \[${reset}\]"; # `$` (and reset color)
-	export PS1;
- }
-
-PROMPT_COMMAND=set_bash_prompt
+PS1="\[\033]0;\w\007\]";
+PS1+="\[${bold}\]\n"; # newline
+PS1+="\$(prompt_venv \"${yellow}\")";
+PS1+="\[${orange}\][\u] "; # username
+PS1+="\[${green}\][\w] "; # working directory
+PS1+="\$(prompt_git \"${violet}\")"; # Git repository details
+PS1+="\n";
+PS1+="\[${white}\]\$ \[${reset}\]"; # `$` (and reset color)
+export PS1;
 
 PS2="\[${yellow}\]→ \[${reset}\]";
 export PS2;
