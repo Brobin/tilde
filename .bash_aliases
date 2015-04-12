@@ -49,6 +49,7 @@ alias py2venv='source $HOME/py2venv/bin/activate'
 alias py3venv='source $HOME/py3venv/bin/activate'
 
 # python scripts
+alias server="py2venv && python -m SimpleHTTPServer"
 alias r2='py2venv && python $HOME/scripts/r2.py'
 alias weather='py2venv && python $HOME/scripts/weather.py'
 alias c='py2venv && python $HOME/scripts/temperature.py c'
