@@ -1,5 +1,5 @@
 {
-    "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+    "color_scheme": "Packages/Predawn/predawn.tmTheme",
     "findreplace_small": true,
     "folder_exclude_patterns":
     [
@@ -17,7 +17,7 @@
     ],
     "sidebar_default": true,
     "tabs_small": true,
-    "theme": "Soda SolarizedDark.sublime-theme",
+    "theme": "predawn.sublime-theme",
     "translate_tabs_to_spaces": true,
     "word_wrap": true,
     "wrap_width": 79
