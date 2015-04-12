@@ -10,7 +10,7 @@ cd tilde
 source tilde.sh
 ```
 
-![](http://i.imgur.com/gHnNUYa.png)
+![](http://i.imgur.com/cDaboYy.png)
 
 NOTE: Some of my aliases include some python scripts that require virtualenvs. To install the virtualenvs, run the following
 

@@ -1,0 +1,24 @@
+{
+    "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+    "findreplace_small": true,
+    "folder_exclude_patterns":
+    [
+        ".git",
+        "build",
+        "*venv",
+        "dist",
+        "*.egg-info",
+        "__pycache__"
+    ],
+    "font_size": 10,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "sidebar_default": true,
+    "tabs_small": true,
+    "theme": "Soda SolarizedDark.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "word_wrap": true,
+    "wrap_width": 79
+}
