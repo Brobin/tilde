@@ -1,6 +1,6 @@
 # Brobin’s ~/
 
-This repository contains my Linux dotfiles, simple scripts aliases and other stuff (wallpapers etc.) that resides in my `~/` folder. I cherry-picked a lot of stuff from [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) and added some of my own. Check that repository out for more stuff and more detailed docs :)
+This repository contains my Linux dotfiles, simple scripts aliases and other stuff (wallpapers etc.) that resides in my `~/` folder. I borrowed a lot of stuff from [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) and added some of my own. Check that repository out for even more stuff (especially for OSX) :)
 
 Installation
 

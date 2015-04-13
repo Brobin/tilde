@@ -10,6 +10,10 @@
         "*.egg-info",
         "__pycache__"
     ],
+    "file_exclude_patterns":
+    [
+        "*.pyc"
+    ],
     "font_size": 10,
     "ignored_packages":
     [
