@@ -5,8 +5,8 @@ cd "$(dirname "${BASH_SOURCE}")";
 git pull;
 
 function doIt() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "tilde.sh" \
-		--exclude "README.md" --exclude "LICENSE-MIT.txt" --exclude "terminal.png" -avh --no-perms . ~;
+	rsync --exclude ".git/" --exclude "tilde.sh" --exclude "README.md" \
+        --exclude "LICENSE-MIT.txt" --exclude "terminal.png" -avh --no-perms . ~;
 	source ~/.bash_profile;
 }
 
