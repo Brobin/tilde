@@ -64,3 +64,6 @@ alias pytest='python manage.py test'
 # just do it
 alias fucking='sudo '
 alias doit='$(history -p !!)'
+
+
+alias colors='bash $HOME/scripts/show_colors.sh'

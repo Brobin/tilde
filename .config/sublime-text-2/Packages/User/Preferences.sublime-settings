@@ -23,6 +23,5 @@
     "tabs_small": true,
     "theme": "predawn.sublime-theme",
     "translate_tabs_to_spaces": true,
-    "word_wrap": true,
-    "wrap_width": 79
+    "word_wrap": true
 }

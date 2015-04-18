@@ -28,4 +28,3 @@ ColorPalette=#000000000000;#cd6b58f95310;#a7a7cece8888;#e7ffa4265d81;#3efdbbf8cf
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0.900000
 TitleMode=TERMINAL_TITLE_REPLACE
-
