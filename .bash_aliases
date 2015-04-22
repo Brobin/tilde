@@ -47,6 +47,8 @@ done
 # virtualenv
 alias py2venv='source $HOME/py2venv/bin/activate'
 alias py3venv='source $HOME/py3venv/bin/activate'
+alias py2='py2venv'
+alias py3='py3venv'
 
 # python scripts
 alias server="py2venv && python -m SimpleHTTPServer"
@@ -56,14 +58,12 @@ alias c='py2venv && python $HOME/scripts/temperature.py c'
 alias f='py2venv && python $HOME/scripts/temperature.py f'
 
 # django stuff
+alias pmp='python manage.py'
 alias runserver='python manage.py runserver'
 alias migrate='python manage.py makemigrations && python manage.py migrate'
-alias runserver='python manage.py runserver'
 alias pytest='python manage.py test'
 
 # just do it
-alias fucking='sudo '
-alias doit='$(history -p !!)'
-
+alias fuck='sudo $(history -p !!)'
 
 alias colors='bash $HOME/scripts/show_colors.sh'
