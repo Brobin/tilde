@@ -59,11 +59,12 @@ alias f='py2venv && python $HOME/scripts/temperature.py f'
 
 # django stuff
 alias pmp='python manage.py'
-alias runserver='python manage.py runserver'
-alias migrate='python manage.py makemigrations && python manage.py migrate'
-alias pytest='python manage.py test'
+alias runserver='pmp runserver'
+alias migrate='pmp makemigrations && pmp migrate'
+alias pytest='pmp test'
 
 # just do it
-alias fuck='sudo $(history -p !!)'
+alias fuck='$(thefuck $(fc -ln -1))'
+alias FUCK='fuck'
 
 alias colors='bash $HOME/scripts/show_colors.sh'
