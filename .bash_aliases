@@ -17,7 +17,7 @@ alias j="jobs"
 colorflag="--color"
 
 # Becuase you do this all the time
-alias sl="ls"
+# alias sl="ls"
 
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
@@ -56,6 +56,7 @@ alias r2='py2venv && python $HOME/scripts/r2.py'
 alias weather='py2venv && python $HOME/scripts/weather.py'
 alias c='py2venv && python $HOME/scripts/temperature.py c'
 alias f='py2venv && python $HOME/scripts/temperature.py f'
+alias status='py2venv && python -Wi $HOME/scripts/status.py'
 
 # django stuff
 alias pmp='python manage.py'
