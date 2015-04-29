@@ -1,2 +1,7 @@
 # Compiled Python files
 *.pyc
+
+# Python build files
+build/
+dist/
+rtv.egg-info/

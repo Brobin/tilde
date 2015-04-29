@@ -47,3 +47,5 @@
 	email = tobinjbrown@gmail.com
  	name = Brobin
 
+[core]
+	excludesfile = ~/.gitignore
