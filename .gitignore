@@ -5,3 +5,6 @@
 build/
 dist/
 rtv.egg-info/
+
+# extra configurations
+.extra
