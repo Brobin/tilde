@@ -64,3 +64,8 @@ extract() {
 		echo "Usage: extract $1"
 	fi
 }
+
+# add you public ssh key to a remote server's authorized keys
+function ssh-key(){
+  cat ~/.ssh/id_rsa.pub | ssh $1 'cat >> .ssh/authorized_keys'
+}
