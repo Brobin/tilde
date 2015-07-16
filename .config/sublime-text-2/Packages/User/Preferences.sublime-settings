@@ -1,5 +1,10 @@
 {
-    "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+    "theme": "predawn.sublime-theme",
+    "color_scheme": "Packages/Predawn/predawn.tmTheme",
+    "file_exclude_patterns":
+    [
+        "*.pyc"
+    ],
     "findreplace_small": true,
     "folder_exclude_patterns":
     [
@@ -10,19 +15,14 @@
         "*.egg-info",
         "__pycache__"
     ],
-    "file_exclude_patterns":
-    [
-        "*.pyc"
-    ],
     "font_size": 10,
     "ignored_packages":
     [
         "Vintage"
     ],
     "sidebar_default": true,
+    "soda_folder_icons": true,
     "tabs_small": true,
-    "theme": "Sodarized Dark.sublime-theme",
     "translate_tabs_to_spaces": true,
-    "word_wrap": true,
-    "soda_folder_icons": true
+    "word_wrap": true
 }
