@@ -69,3 +69,12 @@ alias fuck='$(thefuck $(fc -ln -1))'
 alias FUCK='fuck'
 
 alias colors='bash $HOME/scripts/show_colors.sh'
+
+# node
+alias node='nodejs'
+
+# antlr
+export CLASSPATH=".:/usr/local/lib/antlr-4.5.1-complete.jar:$CLASSPATH"
+alias antlr4='java -jar /usr/local/lib/antlr-4.5.1-complete.jar'
+alias grun='java org.antlr.v4.gui.TestRig'
+
