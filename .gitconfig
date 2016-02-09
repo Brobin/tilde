@@ -49,3 +49,6 @@
 [alias]
 	tree="log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 	search="!f() { git log --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --grep=$1; }; f"
+
+[credential]
+	helper = cache --timeout=7200
